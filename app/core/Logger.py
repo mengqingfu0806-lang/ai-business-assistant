@@ -16,3 +16,6 @@ def get_logger(name: str):
         logger.setLevel(logging.INFO)
 
     return logger
+if __name__ == "__main__":
+    logger = get_logger("test")
+    logger.info("Logger initialized successfully")
