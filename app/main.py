@@ -1,5 +1,5 @@
 from config import settings
-from core.assistant import Assistant
+from app.core.assistant import Assistant
 
 print(settings.PROJECT_NAME)
 print(settings.VERSION)
